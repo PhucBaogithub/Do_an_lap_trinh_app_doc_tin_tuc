@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_news_display"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_id_news_display"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="1"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/img_news_display"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_name_news_display"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Bú gà news đang được loan truyền thông tin không làm đồ án khắp cả nước"
+                android:textSize="13sp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/img_logo_news_display"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/vov"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

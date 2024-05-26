@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ic_news" android:title="Tin tức" android:icon="@drawable/ic_news" app:showAsAction="always"/>
+    <item android:id="@+id/ic_trending" android:title="Xu hướng" android:icon="@drawable/ic_trending" app:showAsAction="always"/>
+    <item android:id="@+id/ic_utilities" android:title="Tiện ích" android:icon="@drawable/ic_utilities" app:showAsAction="always"/>
+</menu>
